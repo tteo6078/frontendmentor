@@ -10,19 +10,42 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+   
     body{
       background-color: hsl(212, 45%, 89%);
+      font-family: "Outfit", sans-serif;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      display: flex;
     }
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    
+    h1 {
+      color: hsl(218, 44%, 22%); 
+      font-size: 22px;
+      font-weight: 700;
+      margin-top: 1rem;
+      margin-bottom: 1rem; 
+      padding: 0 1rem; 
+    }
+
+    p {
+      color: hsl(220, 15%, 55%); 
+      font-size: 15px; 
+      font-weight: 400;
+      margin-bottom: 1rem; 
+      padding: 0 1rem; 
+    }
+
     .qr-container {
       text-align: center;
     }
+
     .qr-code {
       background-color: white;
       padding: 0.75rem;
       border-radius: 0.75rem;
-      width: 200px;
+      width: 320px;
       position: absolute;
       left: 50%;
       top: 50%;
@@ -33,19 +56,6 @@
     .qr-code img {
       max-width: 100%;
       border-radius: 0.75rem;
-    }
-    .qr-code h1 {
-      margin: 1.1rem 0 0.5rem 0;
-      font-family: 'Outfit', sans-serif;
-      color: hsl(218, 44%, 22%);
-      font-size: 1rem;
-      font-weight: bold;
-    }
-    .qr-code p {
-      font-family: 'Outfit', sans-serif;
-      color: hsl(214, 17%, 51%);
-      font-size: 0.75rem;
-      line-height: 1.5;
     }
   </style>
 </head>
